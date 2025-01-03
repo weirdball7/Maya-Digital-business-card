@@ -44,7 +44,7 @@ body{
     border-radius: 50%;
     background-color: rgb(134, 26, 26);
     position: relative;
-    bottom: 45px;
+    bottom: 70px;
 }
 
 .profile-text{
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     position: relative;
     gap: 20px;
-    /* bottom: 50px; */
+    bottom: 10px;
 }
 
 .contact-link{
@@ -74,5 +74,6 @@ body{
     font-size: 20px;
     background-color: royalblue;
     height: 40px;
-
+    display: flex;
+    align-items: center;
 }
