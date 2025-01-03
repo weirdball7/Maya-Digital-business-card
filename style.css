@@ -39,13 +39,13 @@ body{
     justify-content: center;
 }
 
-.profile-img{
+.profile-img{ 
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: rgb(134, 26, 26);
     position: relative;
-    bottom: 220px;
+    bottom: 150px;
 }
 
 .profile-text{
