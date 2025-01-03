@@ -19,6 +19,7 @@ body{
     width: 100%;
     height:40%;
     background-image: url('./maya-background.jpg');
+    margin-top: 20px;
     background-size: cover;
     background-position: center;
     /* position: relative; */
@@ -39,12 +40,12 @@ body{
 }
 
 .profile-img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: rgb(134, 26, 26);
     position: relative;
-    bottom: 70px;
+    bottom: 120px;
 }
 
 .profile-text{
@@ -53,7 +54,7 @@ body{
     /* judtify-content: center; */
     align-items: center;
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 .content{
@@ -61,11 +62,13 @@ body{
 }
 
 .contact{
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     position: relative;
-    gap: 20px;
-    bottom: 10px;
+    gap: 25px;
+    /* bottom: 10px; */
 }
 
 .contact-link{
@@ -73,7 +76,8 @@ body{
     color: black;
     font-size: 20px;
     background-color: royalblue;
-    height: 40px;
+    height: 80px;
+    width: 90px;
     display: flex;
     align-items: center;
 }
